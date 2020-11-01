@@ -23,8 +23,79 @@ body {
 
 #strajkkobiet {
     transform-style: preserve-3d;
-    min-height: 80vh;
-    width: 35rem;
+    min-height: 60vh;
+    width: 500px;
     background-color: lightcoral;
 }
 
+#photo0 img{
+    height: 150px;
+    top: 50px;
+    left: 200px;
+    position:absolute;
+    clip-path: polygon(20px 0px, 100px 0px, 60px 150px, 0px 150px);
+}
+
+#lightning0 {
+    width: 150px;
+    height: 150px;
+    top: 50px;
+    left: 200px;
+    background: rgba(255,0,0,1);
+    position:absolute;
+    clip-path: polygon(20px 0px, 100px 0px, 60px 150px, 0px 150px);
+}
+
+#photo1 img {
+    height: 150px;
+    top: 200px;
+    left: 180px;
+    position:absolute;
+    clip-path: polygon(20px 0px, 80px 0px, 40px 150px, 0px 150px);
+}
+
+#lightning1 {
+    width: 150px;
+    height: 150px;
+    top: 200px;
+    left: 180px;
+    background: rgba(255,0,0,1);
+    position:absolute;
+    clip-path: polygon(20px 0px, 80px 0px, 40px 150px, 0px 150px);
+}
+
+#photo2 img {
+    height: 150px;
+    top: 305px;
+    left: 120px;
+    position:absolute;
+    clip-path: polygon(60px 45px, 172px 45px, 150px 95px, 52px 95px);
+}
+
+#lightning2 {
+    width: 200px;
+    height: 150px;
+    top: 305px;
+    left: 120px;
+    background: rgba(255,0,0,1);
+    position:absolute;
+    clip-path: polygon(60px 45px, 172px 45px, 150px 95px, 52px 95px);
+}
+
+#photo3 img {
+    height: 150px;
+    top: 390px;
+    left: 180px;
+    position:absolute;
+    clip-path: polygon(40px 10px, 90px 10px, 20px 150px);
+}
+
+#lightning3 {
+    width: 150px;
+    height: 150px;
+    top: 390px;
+    left: 180px;
+    background: rgba(255,0,0,1);
+    position:absolute;
+    clip-path: polygon(40px 10px, 90px 10px, 20px 150px);
+}
